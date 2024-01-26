@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+
+
+body {
+    font-family: 'Jost', sans-serif;
+    
+
+
+}
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header-top {
+ width: 100%;
+}
+
+.header-top .wrapper {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.header-top img{
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20%;
+    margin-top: 7%;
+    
+  
+
+}
+
+.header-top .links, 
+.header-top .links div{
+    height: fit-content;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    
+   
+}
+.header-top .links div p{
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+
+.header-top .links{
+   gap: 18px;
+}
+
+.header-bottom .top ul{
+    display: flex;
+    align-items:center;
+    float: left;
+    margin-top: 4%;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.header-bottom .top ul li{
+    list-style-type: none;
+    border-bottom: none;
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+.header-bottom .top .no-margin{
+    margin-left: 30%;
+   
+}
+
+a {
+    text-decoration: none;
+  }
+  a:visited{
+    color: #3A3A3A;
+  }
+  .header-bottom .top .search{
+    float: right;
+    margin-top: 4%;
+    width: 389px;
+    height: 40px;
+    border: 0.5px solid #3A3A3A;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .header-bottom .top .search input{
+    width: 100% ;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+   }
+   .content-baslik{
+    text-align: center;
+    font-family: 'Jost';
+    color: #1E1E1E;
+    font-size: 40px;
+    margin-top: 30px;
+
+}
+.ekibimiz-foto{
+    text-align: center;
+
+}
+.content-ekibimiz{
+    margin-top: 200px;
+
+}
+.ekibimiz-yazilar{
+    text-align: center;
+
+}
+
+.ekibimiz-isim{
+    font-family: 'Jost';
+    font-size: 15px; 
+    margin-top: 10px;
+    text-decoration: none;
+}
+.ekibimiz-yazi{
+    font-family: 'Jost';
+    font-size: 15px; 
+    color:#1E1E1E;
+    text-decoration: none;
+    
+
+}
+
+.alt{
+margin-top: 30px;
+
+}
+
+  
+
+
